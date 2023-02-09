@@ -1,5 +1,25 @@
-<template>Enter data</template>
+<template>
+<SignupForm/>
+</template>
 
-<script></script>
+<script>
+import SignupForm from './components/SignupForm.vue'
 
-<style></style>
+export default {
+  name: "App",
+  components: {SignupForm},
+};
+</script>
+
+<style>
+#app {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color:#2c3e50;
+  margin-top: 60px;
+}
+body{
+    margin:0;
+    background: #eee;
+}
+</style>
